@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
-import PortfolioMain from "./PortfolioMain";
 import Work from "./Work";
 export default props => {
   const path = props.location.pathname;
